@@ -1,0 +1,106 @@
+.hamburg {
+  --ht: 50px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgba(143, 143, 143, 0.568);
+  width: var(--ht);
+  height: var(--ht);
+  z-index: 100;
+}
+.hmb {
+  width: 50px;
+  height: 8px;
+  background-color: #00000080;
+  z-index: 100;
+}
+.header {
+  display: inline-block;
+  left: 0;
+  width: 25%;
+  min-width: 300px;
+  z-index: 100;
+  background-color: rgba(105, 105, 105, 0.746);
+}
+.hmb:hover,
+.hamberg:hover  {
+  background-color: red;
+}
+.hamTop {
+}
+.hamTop:hover:active {
+  transform-origin: 5px 10px;
+  transform: rotate(45deg);
+}
+.hamMiddle:hover:active {
+  opacity: 0;
+}
+.hamMiddle {
+  opacity: 1;
+}
+.hamBottom:hover:active {
+  transform-origin: 5px 0px;
+  transform: rotate(-45deg);
+}
+.hamBottom {
+}
+nav {
+}
+ul {
+}
+li {
+  color:#ffffff;
+}
+.range {
+}
+.rangeInput {
+}
+.rangeX {
+}
+.rangeY {
+}
+.rangeZ {
+}
+h1 {
+}
+p {
+  margin: 0 auto;
+}
+ul.slidecontainer {
+  width: 78%;
+  display: block;
+}
+
+.rangeInput {
+  -webkit-appearance: none;
+  width: 95%;
+  height: 20px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  box-shadow:inset 1px 1px 5px black;
+}
+
+.rangeInput:hover {
+  opacity: 1;
+}
+
+.rangeInput::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: rgb(72, 100, 73);
+  cursor: pointer;
+}
+
+.rangeInput::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: rgb(72, 100, 73);
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+
+:root {
+  --lightBk: #e6e6e6;
+  --ltShadow: #dfdfdf;
+  --dkShadow: #757575;
+  --ltBosShadow: #808080;
+  --boxShadow: #00000040;
+  --window1:url('https://cdn.3axis.co/user-images/joe205o6.jpg');
+  --window: url("https://www.windownation.com/wp-content/uploads/2019/07/casement-window-300x454-300x454.jpg");
+  --rim: url("https://boardandbrush.com/images/wood-background1.jpg");
+  --roof: url("https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804_960_720.jpg");
+  --barndoor: url("https://www.landmarkexteriors.com/images/siding2.jpg");
+  --siding: url("http://www.hitechcorp.biz/wp-content/uploads/2015/06/Image-3.png");
+  --X: -32;
+  --Y: -30;
+  --Z: 0;
+}
+
+body {
+  display: flex;
+  background-color:#00000088;
+}
+* html{
+  box-sizing: border-box;
+  margin:0 auto;
+  padding:0;
+}
